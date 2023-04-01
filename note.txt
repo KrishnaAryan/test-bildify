@@ -1,0 +1,13 @@
+1. Activate the virtual environment.
+2. Install the required packages by running "pip install -r requirements.txt".
+3. Open any browser and go to "http://127.0.0.1:8000/admin/". Log in with the following credentials:
+    Username: admin
+    Password: admin
+4. Open Postman.
+5. Send a POST request to "http://127.0.0.1:8000/projects/".
+6. Include the following JSON data in the request body:
+    {
+    "title": "Test22",
+    "description": "this is test",
+    "user": 2
+}
